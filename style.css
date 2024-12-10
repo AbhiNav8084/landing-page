@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: grey; */
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    /* background-color:aqua; */
+    display:flex ;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4vh;
+    padding: 0vh 3vh;
+}
+#nav h4{
+    font-size: 2.6vh;
+}
+#nav i{
+    font-weight: 600;
+    background-color: #111;
+    color: #fff;
+    padding: 1.2vh;
+    border-radius: 50%;
+}
+#center {
+    width: 100%;
+    /* background-color: aqua; */
+    padding:1.5vw 5vw;
+}
+
+#center h1{
+    font-size: 9.5vh;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 11vh;
+    word-spacing: 4px;
+}
+#center-in{
+    /* height: 10%; */
+    /* background-color: rgb(134, 224, 134); */
+    width: 100%;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-in p{
+    color: rgb(113, 108, 108);
+    font-size: 2.4vh;
+    font-weight: 600;
+    line-height: 3.8vh;
+}
+#center-right{
+    width: 22%; 
+    margin-top: -50px;
+}
+.elem{
+    /* margin: 5px; */
+    padding: 20px 0px;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem a{
+    color: #111;
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: 600;
+}
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+#btm{
+    height: 24.5%;
+    width: 100%;
+    background-color: blue;
+    background-image: url(./assests/btm-image.jpg);
+    background-size: cover;
+    background-position: 0 25%;
+}
